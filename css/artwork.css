@@ -1,0 +1,124 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: "Rockwell";
+    background-color: #9baec8;
+}
+header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  left: 0;
+  background-color: #282c37;
+  z-index: 1;
+}
+header ul {
+  list-style: none;
+  text-align: right;
+}
+ul a {
+  color: white;
+  font-size: 18px;
+}
+ul li {
+  display: inline-block;
+  width: 200px;
+  text-align: center;
+}
+/*#main{
+  width: 100%;
+  height: 100%;
+}*/
+.title {
+  /*text-decoration: underline;*/
+  position: relative;
+  width: 100%;
+  top: 22%;
+  font-size: 30px;
+  text-align: center;
+}
+#mainImg{
+  position: relative;
+  width: 40%;
+  height: 50%;
+  top: 14%;
+  left: 30%;
+  border: 2px black solid;
+  background-image: url("../img/SERIES_2.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+.imgDiv{
+  position: relative;
+  top: 25%;
+  left: 0.5%;
+  width: 100%;
+  height: 100%;
+}
+.imgs{
+  width: 20%;
+  height: 30%;
+  margin: 2%;
+  border: 2px black solid;
+  display: inline-block;
+}
+#img1 {
+  background-image: url("../img/waterbottle_sketch.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#img2 {
+  background-image: url("../img/SERIES_1.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#img3 {
+  background-image: url("../img/SERIES_2.jpeg");
+  background-size: cover;
+  background-position: center;
+}
+#img4 {
+  background-image: url("../img/self_sketch.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#img5 {
+  background-image: url("../img/poses_sketch.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#img6 {
+  background-image: url("../img/landscape_sketch.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#img7 {
+  background-image: url("../img/fox_painting.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#img8 {
+  background-image: url("../img/faces_painting.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#img9 {
+  background-image: url("../img/converse_painting.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#img10 {
+  background-image: url("../img/color_project.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#img11 {
+  background-image: url("../img/aNNA_IS_A_bAD_wiDOW.jpg");
+  background-size: cover;
+  background-position: center;
+}
+#img12 {
+  background-image: url("../img/aiorio_orange_4_Final.gif");
+  background-size: cover;
+  background-position: center;
+}
